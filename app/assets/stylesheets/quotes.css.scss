@@ -1,9 +1,14 @@
 // Place all the styles related to the quotes controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+@import url(https://fonts.googleapis.com/css?family=Josefin+Slab);
+
+
+
 .clear {
   clear:both;
 }
+
 
 .circle {
     font-weight:bold;
@@ -39,6 +44,8 @@
   color:black;
   font-size:25px;
   border-bottom: 1px solid #dfdfdf;
+  font-family: 'yeseva_oneregular';
+  font-weight:bold;
 }
 
 header {
@@ -47,4 +54,16 @@ header {
 
 hr {
   clear:both;
+}
+
+h1 {
+  font-family: 'Josefin Slab', serif;
+  font-weight: 300;
+  letter-spacing: -1.5px;
+ 
+}
+
+h2 {
+  font-family: 'yeseva_oneregular';
+  font-size: 20px;
 }
