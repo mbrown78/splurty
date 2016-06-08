@@ -3,7 +3,38 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 @import url(https://fonts.googleapis.com/css?family=Josefin+Slab);
 
+/* Sticky footer styles
+----------------------------------------*/
 
+html {
+  position:relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom:60px;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+   /* Set the fixed height of the footer here */
+  height: 60px;
+  /* background-color: #f5f5f5;*/
+}
+
+.footer-blurb {
+  font-family: "Palatino Linotype", Palatino, Palladio, "URW Palladio L", "Book Antiqua", Baskerville, "Bookman Old Style", "Bitstream Charter", "Nimbus Roman No9 L", Garamond, "Apple Garamond", "ITC Garamond Narrow", "New Century Schoolbook", "Century Schoolbook", "Century Schoolbook L", Georgia, serif;
+  font-style: italic;
+  text-align: right;
+  font-size: 10px;
+}
+
+.next-quote {
+  color:#f84342;
+  font-size: 20px;
+}
 
 .clear {
   clear:both;
@@ -38,6 +69,7 @@
 
 .links {
   padding-top: 26px;
+  text-align: right;
 }
 
 .links a {
@@ -46,6 +78,7 @@
   border-bottom: 1px solid #dfdfdf;
   font-family: 'yeseva_oneregular';
   font-weight:bold;
+  margin-right: 20px;
 }
 
 header {
