@@ -41,9 +41,9 @@
         </div>
         <div class="modal-body">
           <%= simple_form_for Quote.new do |f| %>
-            <%= f.input :saying, label: "What is the saying you want to add?", placeholder: "I learned the value of hard work by working hard."%>
+            <%= f.input :saying, label: "What did you learn today?", placeholder: "I learned the value of hard work by working hard."%>
             <br />
-            <%= f.input :author, label: "Who is the author of the quote?", placeholder: 'Margaret' %>
+            <%= f.input :author, label: "What is your name?", placeholder: 'Margaret' %>
         </div>
         <div class="modal-footer">
           <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
